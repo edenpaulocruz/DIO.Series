@@ -9,7 +9,6 @@ namespace DIO.Series
         private string Sinopse { get; set;}
         private int Ano { get; set;}
 
-        // Métodos
         public Serie(int id, Genero genero, string titulo, string sinopse, int ano)
         {
             this.Id = id;
@@ -22,9 +21,9 @@ namespace DIO.Series
         public override string ToString()
         {
             string retorno = "";
-            retorno += "Gênero: " + this.Genero + Enviroment.NewLine;
-            retorno += "Título: " + this.Titulo + Enviroment.NewLine;
-            retorno += "Sinopse: " + this.Sinopse + Enviroment.NewLine;
+            retorno += "Gênero: " + this.Genero + Environment.NewLine;
+            retorno += "Título: " + this.Titulo + Environment.NewLine;
+            retorno += "Sinopse: " + this.Sinopse + Environment.NewLine;
             retorno += "Ano de Lançamento: " + this.Ano;
             return retorno;
         }
