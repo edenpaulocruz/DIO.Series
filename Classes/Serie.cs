@@ -26,7 +26,8 @@ namespace DIO.Series
             retorno += "Gênero: " + this.Genero + Environment.NewLine;
             retorno += "Título: " + this.Titulo + Environment.NewLine;
             retorno += "Sinopse: " + this.Sinopse + Environment.NewLine;
-            retorno += "Ano de Lançamento: " + this.Ano;
+            retorno += "Ano de Lançamento: " + this.Ano + Environment.NewLine;
+            retorno += "Excluída: " + this.Excluido;
             return retorno;
         }
 
